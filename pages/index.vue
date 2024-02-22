@@ -1,11 +1,12 @@
 <template>
-  <div class="p-6 container m-auto *:m-auto">
-    <div ref="onDropZone" @click="open" class="max-w-[900px] w-full border-dashed border-2 border-cyan-400 rounded-md p-4 text-lg font-medium text-center transition bg-cyan-200 cursor-pointer">
+  <div class="p-6 container m-auto *:m-auto max-w-[900px]">
+    <h3 class="text-3xl !mb-5 text-cyan-800">Multiples Files Upload</h3>
+    <div ref="onDropZone" @click="open" class=" w-full border-dashed border-2 border-cyan-400 rounded-md p-4 text-lg font-medium text-center transition bg-cyan-200 cursor-pointer">
       <FileDialog />
     </div>
-    <div class="mt-4 max-w-[900px]">
-      <div class="text-cyan-700 text-lg">
-        Preview
+    <div class="!mt-4">
+      <div class="text-cyan-700 text-lg mb-2">
+        Images Uploaded
       </div>
       <div class="" v-for="file in data" :key="file.path">
         <PreviewFiles @delete="handleDelete(file._id, file.fileName)" :file-name="file.fileName" :url="file.path" :file-type="file.fileType" />
@@ -69,7 +70,7 @@ async function onDrop() {
      body: { id, fileName}
    })
 
-   refresh()
+   await refresh()
  }
 
 const { open, onChange } = useFileDialog()

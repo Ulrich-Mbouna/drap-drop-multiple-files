@@ -1,75 +1,29 @@
-# Nuxt 3 Minimal Starter
+## Multiples Files Upload
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Application Url
+If you want to see the demo of this app, check it there [Multiples Files Upload](https://expense-tracker-c4km.onrender.com/) 😁
 
-## Setup
+## Description
+Multiples Files Upload is an app that lets you upload multiples files to distant and help you to manage it.
+You can upload, one or more images using, select file or Drag & Drop; you can delete images, and the file will be deleted from it distant database.
+The app is easy to use and designed to facilitate files management.
 
-Make sure to install the dependencies:
+## Technologies used
+For this projet we used several technology :
+- HTML : For markup language
+- CSS : For styling
+- Javascript:  For Interactivity part
+- ... etc
 
-```bash
-# npm
-npm install
+### Framework
+- [Vuejs](https://vuejs.org) : The Progressive JavaScript Framework
+- [Nuxt](https://nuxt.com) : The Intuitive Vue Framework
+- [Vueuse](https://vueuse.org/) : Collection of Vue Composition Utilities
+## Features
+With this application, you can, upload one or multiples images; delete images and have auto refresh from distant database.
 
-# pnpm
-pnpm install
+## Screenshots
+![alt Preview Multiples File Uploas App](./public/images/app_preview.png)
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### Follow me
+You can learn more, by contact me on [X](https://twitter.com/MbounaU)(Aka Twitter) or on [LinkedIn](https://www.linkedin.com/in/ulrich-mbouna/). Thanks
